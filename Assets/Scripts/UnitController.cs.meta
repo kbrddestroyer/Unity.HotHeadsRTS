@@ -3,7 +3,12 @@ guid: d7b3a407d73235f4dbfc1b8b780b4c48
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ragdoll: {instanceID: 0}
+  - selectionIcon: {instanceID: 0}
+  - hpBar: {instanceID: 0}
+  - selection: {instanceID: 0}
+  - running: {fileID: 8300000, guid: 62b3c09149f98ea489b3772b00a429d2, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -103,6 +103,6 @@ public class POI : MonoBehaviour
 
         if (capture == 1)
             player.PumpOil(Time.deltaTime);
-        player.WinPoints += capture * Time.deltaTime * 0.25f;
+        player.WinPoints += capture * Time.deltaTime * 0.1f;
     }
 }

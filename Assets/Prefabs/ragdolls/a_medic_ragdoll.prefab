@@ -173,8 +173,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.015320486, y: 0.014272034, z: 0.014116915}
-  m_Center: {x: 0.0004915844, y: 0.009833256, z: -0.00023557678}
+  m_Size: {x: 0.015252025, y: 0.0148208365, z: 0.014116915}
+  m_Center: {x: 0.001403412, y: 0.010958466, z: -1.731654e-10}
 --- !u!144 &573245354265038659
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -282,10 +282,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 8.650852e-11
-  m_Height: 3.460341e-10
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: -1.7301705e-10}
+  m_Radius: 0.0019994262
+  m_Height: 0.0073108785
+  m_Direction: 1
+  m_Center: {x: -0.00008957062, y: 0.0012086983, z: -2.1002362e-10}
 --- !u!144 &2515610894303674183
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -456,10 +456,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 3.7252904e-10
-  m_Height: 0.0000000018626451
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 9.313226e-10}
+  m_Radius: 0.001
+  m_Height: 0.004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.004, z: 6.9849193e-10}
 --- !u!144 &7018021969140890986
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -547,7 +547,6 @@ GameObject:
   m_Component:
   - component: {fileID: 821060519035735875}
   - component: {fileID: 6981158965412632443}
-  - component: {fileID: 4087113013298961887}
   - component: {fileID: 8551734590387970630}
   m_Layer: 0
   m_Name: Head_end
@@ -587,19 +586,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &4087113013298961887
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2220540038896736768}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!144 &8551734590387970630
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -670,7 +656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2575754636212836903}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75, y: -1, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -703,14 +689,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3225090569303938267}
-  m_LocalRotation: {x: -0.7051983, y: -0.05191772, z: -0.05191773, w: 0.70519817}
-  m_LocalPosition: {x: -0.037935257, y: 0.2644602, z: 0.04799748}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 6.736759, y: 6.73676, z: 6.7367578}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2951330677426503837}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!137 &6288829497511868891
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -978,10 +964,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.0016366689
-  m_Height: 0.010797959
+  m_Radius: 0.0016366687
+  m_Height: 0.0084999725
   m_Direction: 1
-  m_Center: {x: -1.106089e-10, y: 0.00539899, z: 0.0016027304}
+  m_Center: {x: -1.2773059e-10, y: 0.004250002, z: 0.0016027341}
 --- !u!144 &6576641130199965827
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -1187,10 +1173,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0
-  m_Height: 0
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.0019994262
+  m_Height: 0.0073108785
+  m_Direction: 1
+  m_Center: {x: -0.00008957062, y: 0.0012086983, z: -2.1002362e-10}
 --- !u!144 &1023036315158405023
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -1298,10 +1284,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 2.7939678e-10
-  m_Height: 0.0000000013969839
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 6.9849193e-10}
+  m_Radius: 0.001
+  m_Height: 0.004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.004, z: 6.9849193e-10}
 --- !u!144 &5095792041148222413
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -1442,10 +1428,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.0016366689
-  m_Height: 0.010797959
+  m_Radius: 0.0016366687
+  m_Height: 0.0084999725
   m_Direction: 1
-  m_Center: {x: -1.106089e-10, y: 0.00539899, z: 0.0016027304}
+  m_Center: {x: -1.2773059e-10, y: 0.004250002, z: 0.0016027341}
 --- !u!144 &8734843916723502056
 CharacterJoint:
   m_ObjectHideFlags: 0

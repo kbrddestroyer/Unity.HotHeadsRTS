@@ -141,6 +141,7 @@ public abstract class UnitController : MonoBehaviour
         hpBar.value = hp / maxHp;
         animation.SetBool("moving", agent.hasPath);
 
+
         if (hp <= 0) Die();
         if (Input.GetKeyDown(KeyCode.Mouse0) && !isMouseOver) ToggleSelected(false);
 
