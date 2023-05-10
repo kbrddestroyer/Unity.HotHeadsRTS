@@ -377,15 +377,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8387679e0cc5aa4b96ff7581d70a3b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 7
+  maxHp: 10
   ragdoll: {fileID: 4790313151390709205, guid: 4970dc9952447c64bb409dcc9c87c158, type: 3}
   selectionIcon: {fileID: 2053365012782184305}
   hpBar: {fileID: 3846597317603504178}
   selection: {fileID: 8300000, guid: 4f5b5e2fc59e5844d9dbab8f85a523b7, type: 3}
-  running: {fileID: 0}
+  running: {fileID: 8300000, guid: 62b3c09149f98ea489b3772b00a429d2, type: 3}
   explosionDelay: 2
   explosionLifetime: 0.9
-  explosionTriggerRange: 8
+  explosionTriggerRange: 6
   progress: {fileID: 7000325752752556745}
   explosion: {fileID: 8755994347345367945, guid: 7b9a3e3732080214682fc9f67b227a59, type: 3}
   triggerRangeColor: {r: 1, g: 0, b: 0, a: 1}
@@ -529,7 +529,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.3
-  m_Speed: 1
+  m_Speed: 1.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

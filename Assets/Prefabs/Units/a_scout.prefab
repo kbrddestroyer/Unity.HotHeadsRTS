@@ -801,7 +801,7 @@ MonoBehaviour:
   selectionIcon: {fileID: 8556051046144009410}
   hpBar: {fileID: 4429218183688919691}
   selection: {fileID: 8300000, guid: 10ec5e83f2e729e4397766f0893ab55c, type: 3}
-  running: {fileID: 0}
+  running: {fileID: 8300000, guid: 62b3c09149f98ea489b3772b00a429d2, type: 3}
   muzzleflash: {fileID: 1438144878496151375}
   seekDistance: 10
   dealingDamage: 2
